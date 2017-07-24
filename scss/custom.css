@@ -1,0 +1,32 @@
+.navbar-brand {
+  background-image: none; }
+  .navbar-brand img {
+    float: left;
+    margin-right: 15px; }
+  .navbar-brand span {
+    float: left;
+    color: #FFFFFF; }
+    .navbar-brand span.main {
+      letter-spacing: 4px;
+      margin-top: 11px; }
+    .navbar-brand span.second {
+      font-size: 10px; }
+
+.lightHeader .navbar-brand {
+  background-image: none; }
+  .lightHeader .navbar-brand span {
+    color: #000000; }
+
+footer .copyRight {
+  background-color: #51488A; }
+  footer .copyRight p {
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 1.4em; }
+    footer .copyRight p a {
+      color: inherit; }
+
+.center {
+  text-align: center !important; }
+
+/*# sourceMappingURL=custom.css.map */

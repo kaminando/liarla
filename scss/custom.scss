@@ -1,0 +1,44 @@
+.navbar-brand {
+	background-image: none;
+	img {
+		float: left;
+		margin-right: 15px;
+	}
+		
+	span {
+		float: left;
+		color: #FFFFFF;
+		&.main {
+			letter-spacing: 4px;
+			margin-top: 11px;
+		}
+		&.second {
+			font-size: 10px
+		}
+	}
+}
+
+.lightHeader .navbar-brand {
+	background-image: none;
+	span {
+		color: #000000;
+	}
+}
+
+footer {
+	.copyRight {
+		background-color: #51488A;
+		p {
+			color: #FFFFFF;
+			font-size: 12px;
+			line-height: 1.4em;
+			a {
+				color: inherit;
+			}
+		}
+	}
+}
+
+.center {
+	text-align: center !important;
+}
