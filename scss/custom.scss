@@ -1,3 +1,4 @@
+$break-xs: 768px;
 .navbar-brand {
 	background-image: none;
 	img {
@@ -43,10 +44,28 @@ footer {
 	text-align: center !important;
 }
 
+.justify {
+	text-align: justify !important;
+}
 
 .about-page {
-	background-image: url('../images/office-365.jpg')
+	background-image: url('../images/office-365.jpg');
 }
 .about-img {
 	width: 100%;
+	@media screen and (max-width: $break-xs) {
+		width: auto;
+		height: 200px;
+	}
+}
+.about-quote {
+	font-size: 22px;
+	font-style: italic;
+}
+
+.contact-page {
+	background-image: url('../images/contact.jpg');
+}
+.not-resize{
+	resize: none;
 }
