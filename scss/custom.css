@@ -29,4 +29,10 @@ footer .copyRight {
 .center {
   text-align: center !important; }
 
+.about-page {
+  background-image: url("../images/office-365.jpg"); }
+
+.about-img {
+  width: 100%; }
+
 /*# sourceMappingURL=custom.css.map */
