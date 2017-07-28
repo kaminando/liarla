@@ -32,6 +32,10 @@ footer .copyRight {
 .justify {
   text-align: justify !important; }
 
+@media screen and (max-width: 768px) {
+  .no-xs {
+    display: none; } }
+
 .about-page {
   background-image: url("../images/office-365.jpg"); }
 

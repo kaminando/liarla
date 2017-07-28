@@ -47,6 +47,11 @@ footer {
 .justify {
 	text-align: justify !important;
 }
+.no-xs {
+	@media screen and (max-width: $break-xs) {
+		display: none;
+	}
+}
 
 .about-page {
 	background-image: url('../images/office-365.jpg');
