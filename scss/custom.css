@@ -56,4 +56,7 @@ footer .copyRight {
 .not-resize {
   resize: none; }
 
+h3.section-header {
+  font-weight: 500; }
+
 /*# sourceMappingURL=custom.css.map */
