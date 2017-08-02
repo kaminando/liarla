@@ -27,7 +27,7 @@ jQuery(document).ready(function(){
    startwidth: 1170,
    startheight: 745,
    fullWidth: 'on',
-   fullScreen: 'off',
+   fullScreen: 'on',
    hideCaptionAtLimit: '',
    dottedOverlay: 'twoxtwo',
    navigationStyle: 'preview4',
@@ -40,7 +40,7 @@ jQuery(document).ready(function(){
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
-    if ((scroll >= 1) && ($('.navbar-default').hasClass('navbar-main')))
+    if ((scroll >= $('.fullscreenbanner-container').height()-$('.navbar').height() ) && ($('.navbar-default').hasClass('navbar-main')))
     {
       header.addClass('lightHeader');
     }
