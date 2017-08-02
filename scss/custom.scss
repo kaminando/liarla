@@ -52,6 +52,12 @@ footer {
 		display: none;
 	}
 }
+.only-xs {
+	display: none;
+	@media screen and (max-width: $break-xs) {
+		display: block;
+	}
+}
 
 .about-page {
 	background-image: url('../images/office-365.jpg');
@@ -77,4 +83,14 @@ footer {
 
 h3.section-header {
 	font-weight: 500;
+}
+
+.home-cover {
+	position: relative;
+	.desk-search-bar {
+		position: absolute;
+		z-index: 99;
+		width: 100%;
+		top: 60%;
+	}
 }
