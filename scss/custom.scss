@@ -1,106 +1,107 @@
 $break-xs: 768px;
 .navbar-brand {
-	background-image: none;
-	img {
-		float: left;
-		margin-right: 15px;
-	}
-		
-	span {
-		float: left;
-		color: #FFFFFF;
-		&.main {
-			letter-spacing: 4px;
-			margin-top: 11px;
-		}
-		&.second {
-			font-size: 10px
-		}
-	}
+  background-image: none;
+  img {
+    float: left;
+    margin-right: 15px;
+  }
+    
+  span {
+    float: left;
+    color: #FFFFFF;
+    &.main {
+      letter-spacing: 4px;
+      margin-top: 11px;
+    }
+    &.second {
+      font-size: 10px
+    }
+  }
 }
 
 .lightHeader .navbar-brand {
-	background-image: none;
-	span {
-		color: #000000;
-	}
+  background-image: none;
+  span {
+    color: #000000;
+  }
 }
 
 footer {
-	.copyRight {
-		background-color: #51488A;
-		p {
-			color: #FFFFFF;
-			font-size: 12px;
-			line-height: 1.4em;
-			a {
-				color: inherit;
-			}
-		}
-	}
+  .copyRight {
+    background-color: #51488A;
+    p {
+      color: #FFFFFF;
+      font-size: 12px;
+      line-height: 1.4em;
+      a {
+        color: inherit;
+      }
+    }
+  }
 }
 
 .center {
-	text-align: center !important;
+  text-align: center !important;
 }
 
 .justify {
-	text-align: justify !important;
+  text-align: justify !important;
 }
 .no-xs {
-	@media screen and (max-width: $break-xs) {
-		display: none;
-	}
+  @media screen and (max-width: $break-xs) {
+    display: none;
+  }
 }
 .only-xs {
-	display: none;
-	@media screen and (max-width: $break-xs) {
-		display: block;
-	}
+  display: none;
+  @media screen and (max-width: $break-xs) {
+    display: block;
+  }
 }
 
 .about-page {
-	background-image: url('../images/office-365.jpg');
+  background-image: url('../images/office-365.jpg');
 }
 .about-img {
-	width: 100%;
-	@media screen and (max-width: $break-xs) {
-		width: auto;
-		height: 200px;
-	}
+  width: 100%;
+  @media screen and (max-width: $break-xs) {
+    width: auto;
+    height: 200px;
+  }
 }
 .about-quote {
-	font-size: 22px;
-	font-style: italic;
+  font-size: 22px;
+  font-style: italic;
 }
 
 .contact-page {
-	background-image: url('../images/contact.jpg');
+  background-image: url('../images/contact.jpg');
 }
 .not-resize{
-	resize: none;
+  resize: none;
 }
 
 h3.section-header {
-	font-weight: 500;
+  font-weight: 500;
 }
 
 .home-cover {
-	position: relative;
-	.desk-search-bar {
-		position: absolute;
-		z-index: 99;
-		width: auto;
-		top: 70%;
-		margin-left: 50%;
-		transform: translateX(-50%);
-		-webkit-border-radius: 8px;
-		-moz-border-radius: 8px;
-		border-radius: 8px;
-		border: 1px solid #cccccc;
-		-webkit-box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
-		-moz-box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
-		box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
-	}
+  position: relative;
+  .desk-search-bar {
+    position: absolute;
+    z-index: 99;
+    width: auto;
+    top: 70%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
+  }
 }
+
 

@@ -428,6 +428,79 @@
 	border: none;
 	padding-right: 0;
 }
+
+.text-search{
+	height: $base*9;
+	margin-top: $base-xs*2;
+	border: none;
+	border-bottom: 1px solid $white-color;
+	padding: 0;
+	border-radius: 0;
+	&.filterDate{
+		border-color: lighten(desaturate(adjust-hue($primary-color, -28.5333), 100.0000), 31.1765);
+		margin-bottom: $base*4;
+	}
+}
+.text-search .form-control{
+	height: $base*9;
+	background: transparent;
+	border: none;
+	font-size: 17px;
+	font-weight: 400;
+	color: rgba($white-color, .3);
+	padding: $base-xs*2 $base-xs*6 $base-xs*2 0;
+	box-shadow: none !important;
+}
+.text-search.filterDate .form-control{
+	color: lighten(desaturate(adjust-hue($primary-color, -28.5333), 100.0000), 2.9412);
+}
+.text-search .form-control::-webkit-input-placeholder{
+	font-size: $base-xs*6;
+	font-weight: 400;
+	color: $white-color;
+}
+.text-search .form-control::-moz-placeholder{
+	font-size: $base-xs*6;
+	font-weight: 400;
+	color: $white-color;
+}
+.text-search .form-control:-ms-input-placeholder{
+	font-size: $base-xs*6;
+	font-weight: 400;
+	color: $white-color;
+}
+.text-search .form-control:-moz-placeholder {
+	font-size: $base-xs*6;
+	font-weight: 400;
+	color: $white-color;
+}
+.text-search.filterDate .form-control::-webkit-input-placeholder{
+	font-size: $base-xs*6;
+	font-weight: 400;
+	color: $white-color;
+}
+.text-search.filterDate .form-control::-moz-placeholder{
+	font-size: $base-xs*6;
+	font-weight: 400;
+	color: $white-color;
+}
+.text-search.filterDate .form-control:-ms-input-placeholder{
+	font-size: $base-xs*6;
+	font-weight: 400;
+	color: $white-color;
+}
+.text-search.filterDate .form-control:-moz-placeholder {
+	font-size: $base-xs*6;
+	font-weight: 400;
+	color: $white-color;
+}
+.text-search .input-group-addon{
+	height: $base*9;
+	background: transparent;
+	border: none;
+	padding-right: 0;
+}
+
 .datepicker-dropdown{
 	width: auto;
 	padding: 0;
