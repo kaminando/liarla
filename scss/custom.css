@@ -93,9 +93,12 @@ h3.section-header {
     font-weight: 600;
     text-align: center; }
   .home-jumbotron .inf {
-    margin-top: 30px; }
+    margin-top: 20px; }
     .home-jumbotron .inf div {
       background-color: #ffffff;
-      padding: 15px; }
+      padding: 15px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px; }
 
 /*# sourceMappingURL=custom.css.map */

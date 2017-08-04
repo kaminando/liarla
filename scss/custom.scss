@@ -117,10 +117,13 @@ h3.section-header {
     text-align: center;
   }
   .inf {
-    margin-top: 30px;
+    margin-top: 20px;
     div  {
       background-color: #ffffff;
       padding: 15px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
     }
   }
 }
