@@ -104,4 +104,23 @@ h3.section-header {
   }
 }
 
-
+.home-jumbotron {
+  background-color: #eaeaea;
+  p {
+    font-size: inherit;
+    text-align: center;
+  }
+  h4 {
+    font-size: 16px;
+    text-transform: none;
+    font-weight: 600;
+    text-align: center;
+  }
+  .inf {
+    margin-top: 30px;
+    div  {
+      background-color: #ffffff;
+      padding: 15px;
+    }
+  }
+}

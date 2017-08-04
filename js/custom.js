@@ -164,4 +164,5 @@ jQuery(document).ready(function(){
       $button.parent().find('.quantity').val(newVal);
       e.preventDefault();
   });
+  $('.currency').autoNumeric('init', {aSign:'$ ', pSign:'p' }); 
 });
