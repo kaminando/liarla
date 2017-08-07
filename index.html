@@ -46,6 +46,8 @@
       <nav class="navbar navbar-default navbar-main navbar-fixed-top    " role="navigation">
         <div class="container">
 
+
+
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -94,9 +96,17 @@
                 </ul>
               </li>
               <li class="dropdown singleDrop ">
+                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MI CUENTA <i class="fa fa-user" aria-hidden="true"></i></a>
+                <ul class="dropdown-menu dropdown-menu-right">
+                  <li class=""><a href="#">Dashboard</a></li>
+                  <li class=""><a href="#">Perfil</a></li>
+                  <li><a href="settings.html">Configuración</a></li>
+                </ul>
+              </li>
+              <li class="dropdown singleDrop hide">
                 <a href="" data-toggle="modal" data-target="#signup"><i class="fa fa-user" aria-hidden="true"></i> CREA TU CUENTA</a>
               </li>
-              <li class="dropdown singleDrop ">
+              <li class="dropdown singleDrop hide">
                 <a href="" data-toggle="modal" data-target="#login"><i class="fa fa-check" aria-hidden="true"></i> INICIA SESIÓN</a>
               </li>
               <li class="dropdown singleDrop ">
@@ -105,13 +115,14 @@
               <li class="dropdown singleDrop ">
                 <a href="contact.html" ><i class="fa fa-phone" aria-hidden="true"></i> CONTACTO</a>
               </li>
+
             </ul>
+
           </div>
 
         </div>
       </nav>
     </header>
-
 
     <!-- BANNER -->
     <section class="bannercontainer home-cover">
@@ -197,7 +208,6 @@
         </div>
       </div>
 
-
       <section class="darkSection desk-search-bar no-xs">
         <div class="container">
           <div class="row gridResize">
@@ -250,8 +260,6 @@
           </div>
         </div>
       </section>
-
-
     </section>
 
     <!-- SEARCH TOUR -->
@@ -311,7 +319,6 @@
         </div>
       </div>
     </section>
-
 
     <!-- PAGE CONTENT -->
     <section class="mainContentSection packagesSection">
@@ -443,7 +450,6 @@
       </div>
     </section>
 
-
     <section class="packagesSection liarla-interested">
       <br><br>
       <div class="container">
@@ -512,86 +518,71 @@
       <br><br>
     </section>
 
-
     <section class="packagesSection">
       <br><br><br>
       <div class="container">
         <div class="jumbotron home-jumbotron">
           <div class="row">
-
-
-        <div class='col-md-offset-2 col-md-8'>
-          <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-            <!-- Bottom Carousel Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
-              <li data-target="#quote-carousel" data-slide-to="1"></li>
-              <li data-target="#quote-carousel" data-slide-to="2"></li>
-            </ol>
-            
-            <!-- Carousel Slides / Quotes -->
-            <div class="carousel-inner">
-            
-              <!-- Quote 1 -->
-              <div class="item active">
-                <blockquote>
-                  <div class="row">
-                    <div class="col-sm-3 text-center">
-                      <img class="img-circle" src="http://www.roofingcontractor.com/ext/resources/images/authors/Courtney-Dobson-Headshot-square.jpg?1449241605" style="width: 100px;height:100px;">
-                      <!--<img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" style="width: 100px;height:100px;">-->
-                    </div>
-                    <div class="col-sm-9">
-                      <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
-                      <small>Margarita Cabrera</small>
-                    </div>
+            <div class='col-md-offset-1 col-md-10'>
+              <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                <!-- Bottom Carousel Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#quote-carousel" data-slide-to="1"></li>
+                  <li data-target="#quote-carousel" data-slide-to="2"></li>
+                </ol>
+                <!-- Carousel Slides / Quotes -->
+                <div class="carousel-inner">
+                  <!-- Quote 1 -->
+                  <div class="item active">
+                    <blockquote>
+                      <div class="row">
+                        <div class="col-sm-3 text-center">
+                          <img class="img-circle" src="http://www.roofingcontractor.com/ext/resources/images/authors/Courtney-Dobson-Headshot-square.jpg?1449241605" style="width: 100px;height:100px;">
+                        </div>
+                        <div class="col-sm-9">
+                          <p>Si quieres un lugar para reunirte con tus amigos para platicar, comer y pasar un buen rato, Mi Viejo Molino es ideal para ti.</p>
+                          <small>Margarita Cabrera</small>
+                        </div>
+                      </div>
+                    </blockquote>
                   </div>
-                </blockquote>
-              </div>
-              <!-- Quote 2 -->
-              <div class="item">
-                <blockquote>
-                  <div class="row">
-                    <div class="col-sm-3 text-center">
-                      <img class="img-circle" src="https://www.deluxe.com/blog/wp-content/uploads/2015/02/andrew_niekamp_profile.jpg" style="width: 100px;height:100px;">
-                    </div>
-                    <div class="col-sm-9">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
-                      <small>Dionisio Contreras</small>
-                    </div>
+                  <!-- Quote 2 -->
+                  <div class="item">
+                    <blockquote>
+                      <div class="row">
+                        <div class="col-sm-3 text-center">
+                          <img class="img-circle" src="https://www.deluxe.com/blog/wp-content/uploads/2015/02/andrew_niekamp_profile.jpg" style="width: 100px;height:100px;">
+                        </div>
+                        <div class="col-sm-9">
+                          <p>Una opción interesante, un sabor agradable, la atención esmerada y la mesa hasta que se acabe...</p>
+                          <small>Dionisio Contreras</small>
+                        </div>
+                      </div>
+                    </blockquote>
                   </div>
-                </blockquote>
-              </div>
-              <!-- Quote 3 -->
-              <div class="item">
-                <blockquote>
-                  <div class="row">
-                    <div class="col-sm-3 text-center">
-                      <img class="img-circle" src="https://prod-chuffedcontent.s3.amazonaws.com/images%2Fthumb_IkVMSXxhgxautLS6Uo_PLHEADSHOT2016.jpg" style="width: 100px;height:100px;">
-                    </div>
-                    <div class="col-sm-9">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
-                      <small>Jan Matson</small>
-                    </div>
+                  <!-- Quote 3 -->
+                  <div class="item">
+                    <blockquote>
+                      <div class="row">
+                        <div class="col-sm-3 text-center">
+                          <img class="img-circle" src="https://prod-chuffedcontent.s3.amazonaws.com/images%2Fthumb_IkVMSXxhgxautLS6Uo_PLHEADSHOT2016.jpg" style="width: 100px;height:100px;">
+                        </div>
+                        <div class="col-sm-9">
+                          <p>La atención es excelente! El servicio nos encantó y la comida es deliciosa! Muy recomendable.</p>
+                          <small>Jan Matson</small>
+                        </div>
+                      </div>
+                    </blockquote>
                   </div>
-                </blockquote>
-              </div>
+                </div>
+              </div>                          
             </div>
-            
-            <!-- Carousel Buttons Next/Prev -->
-            <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-            <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
-          </div>                          
+          </div>
         </div>
-        </div>
-      </div>
-
-
       </div>
       <br><br><br>
     </section>
-    
-
-    
 
 <!-- FOOTER -->
 <footer>
