@@ -1,5 +1,11 @@
 jQuery(document).ready(function(){
    'use strict';
+
+ $('#quote-carousel').carousel({
+    pause: true,
+    interval: 5000,
+  });
+
 //============================== CLOSE DROPDOWN SELECT =========================
   $('.ed-datepicker input.form-control').focus(function() {
     $('.sbOptions').css('display', 'none');

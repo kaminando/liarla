@@ -6262,9 +6262,241 @@ h3.section-header {
     font-weight: 600;
     text-align: center; }
   .home-jumbotron .inf {
-    margin-top: 30px; }
+    margin-top: 20px; }
     .home-jumbotron .inf div {
       background-color: #ffffff;
-      padding: 15px; }
+      padding: 15px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px; }
+
+@media screen and (max-width: 768px) {
+  .liarla-interested .interested-block {
+    margin-top: 15px;
+    margin-bottom: 15px; } }
+.liarla-interested .interested-block:hover .wrapper .content {
+  transform: scale(1.1); }
+.liarla-interested .interested-block:hover .wrapper .dark-layer {
+  opacity: 0.3; }
+.liarla-interested .interested-block a .wrapper {
+  height: 350px;
+  background-size: cover;
+  background-position-x: center;
+  position: relative;
+  overflow: hidden;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+  @media screen and (max-width: 768px) {
+    .liarla-interested .interested-block a .wrapper {
+      height: 200px !important; } }
+  .liarla-interested .interested-block a .wrapper .inf-layer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%; }
+    .liarla-interested .interested-block a .wrapper .inf-layer .draw {
+      width: 130px;
+      height: 130px;
+      text-align: center;
+      border: 2px solid #ffffff;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      margin: 0 auto;
+      position: relative;
+      top: 45%;
+      transform: translateY(-50%); }
+      @media screen and (max-width: 768px) {
+        .liarla-interested .interested-block a .wrapper .inf-layer .draw {
+          width: 100px !important;
+          height: 100px !important; } }
+      .liarla-interested .interested-block a .wrapper .inf-layer .draw img {
+        width: 70%;
+        margin-top: 50%;
+        transform: translateY(-50%); }
+    .liarla-interested .interested-block a .wrapper .inf-layer p {
+      color: #ffffff; }
+  .liarla-interested .interested-block a .wrapper .content {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position-x: center;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+  .liarla-interested .interested-block a .wrapper .beach {
+    background-image: url("../images/interested/beach.jpg"); }
+  .liarla-interested .interested-block a .wrapper .friends {
+    background-image: url("../images/interested/friends.jpg"); }
+  .liarla-interested .interested-block a .wrapper .tropical {
+    background-image: url("../images/interested/tropical.jpg"); }
+  .liarla-interested .interested-block a .wrapper .romantic {
+    background-image: url("../images/interested/romantic.jpg"); }
+  .liarla-interested .interested-block a .wrapper .dark-layer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.5;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+
+/* carousel */
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px; }
+
+/* Control buttons  */
+#quote-carousel .carousel-control {
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px; }
+
+/* Previous button  */
+#quote-carousel .carousel-control.left {
+  left: -12px; }
+
+/* Next button  */
+#quote-carousel .carousel-control.right {
+  right: -12px !important; }
+
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px; }
+
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li {
+  background: #c0c0c0; }
+
+#quote-carousel .carousel-indicators .active {
+  background: #333333; }
+
+#quote-carousel img {
+  width: 250px;
+  height: 100px; }
+
+/* End carousel */
+.item blockquote {
+  border-left: none;
+  margin: 0; }
+
+.item blockquote img {
+  margin-bottom: 10px; }
+
+.item blockquote p:before {
+  content: "\f10d";
+  font-family: 'Fontawesome';
+  float: left;
+  margin-right: 10px; }
+
+/**
+  MEDIA QUERIES
+*/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #quote-carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px; } }
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) {
+  /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+  #quote-carousel .carousel-indicators {
+    bottom: -20px !important; }
+
+  #quote-carousel .carousel-indicators li {
+    display: inline-block;
+    margin: 0px 5px;
+    width: 15px;
+    height: 15px; }
+
+  #quote-carousel .carousel-indicators li.active {
+    margin: 0px 5px;
+    width: 20px;
+    height: 20px; } }
+/* carousel */
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px; }
+
+/* Control buttons  */
+#quote-carousel .carousel-control {
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px; }
+
+/* Previous button  */
+#quote-carousel .carousel-control.left {
+  left: -12px; }
+
+/* Next button  */
+#quote-carousel .carousel-control.right {
+  right: -12px !important; }
+
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px; }
+
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li {
+  background: #c0c0c0; }
+
+#quote-carousel .carousel-indicators .active {
+  background: #333333; }
+
+#quote-carousel img {
+  width: 250px;
+  height: 100px; }
+
+/* End carousel */
+.item blockquote {
+  border-left: none;
+  margin: 0; }
+
+.item blockquote img {
+  margin-bottom: 10px; }
+
+.item blockquote p:before {
+  content: "\f10d";
+  font-family: 'Fontawesome';
+  float: left;
+  margin-right: 10px; }
+
+/**
+  MEDIA QUERIES
+*/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #quote-carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px; } }
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) {
+  /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+  #quote-carousel .carousel-indicators {
+    bottom: -20px !important; }
+
+  #quote-carousel .carousel-indicators li {
+    display: inline-block;
+    margin: 0px 5px;
+    width: 15px;
+    height: 15px; }
+
+  #quote-carousel .carousel-indicators li.active {
+    margin: 0px 5px;
+    width: 20px;
+    height: 20px; } }
 
 /*# sourceMappingURL=style.css.map */

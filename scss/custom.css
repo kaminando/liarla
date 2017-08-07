@@ -101,4 +101,60 @@ h3.section-header {
       -moz-border-radius: 5px;
       border-radius: 5px; }
 
+.liarla-interested .interested-block:hover .wrapper .content {
+  transform: scale(1.1); }
+.liarla-interested .interested-block a .wrapper {
+  height: 350px;
+  background-size: cover;
+  background-position-x: center;
+  position: relative;
+  overflow: hidden; }
+  .liarla-interested .interested-block a .wrapper .inf-layer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%; }
+    .liarla-interested .interested-block a .wrapper .inf-layer .draw {
+      width: 130px;
+      height: 130px;
+      text-align: center;
+      border: 2px solid #ffffff;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      margin: 0 auto;
+      position: relative;
+      top: 45%;
+      transform: translateY(-50%); }
+      .liarla-interested .interested-block a .wrapper .inf-layer .draw img {
+        width: 70%;
+        margin-top: 50%;
+        transform: translateY(-50%); }
+    .liarla-interested .interested-block a .wrapper .inf-layer p {
+      color: #ffffff; }
+  .liarla-interested .interested-block a .wrapper .content {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position-x: center;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+  .liarla-interested .interested-block a .wrapper .beach {
+    background-image: url("../images/interested/beach.jpg"); }
+  .liarla-interested .interested-block a .wrapper .friends {
+    background-image: url("../images/interested/friends.jpg"); }
+  .liarla-interested .interested-block a .wrapper .tropical {
+    background-image: url("../images/interested/tropical.jpg"); }
+  .liarla-interested .interested-block a .wrapper .romantic {
+    background-image: url("../images/interested/romantic.jpg"); }
+  .liarla-interested .interested-block a .wrapper .dark-layer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.5; }
+
 /*# sourceMappingURL=custom.css.map */
