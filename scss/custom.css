@@ -42,6 +42,9 @@ footer .copyRight {
     .only-xs {
       display: block; } }
 
+.hotel-detail-page {
+  background-image: url("../images/hotels/detail/hotel-detail.jpg"); }
+
 .about-page {
   background-image: url("../images/office-365.jpg"); }
 
