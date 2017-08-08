@@ -45,6 +45,9 @@ footer .copyRight {
 .about-page {
   background-image: url("../images/office-365.jpg"); }
 
+.search-page {
+  background-image: url("../images/search.jpg"); }
+
 .profile-page {
   background-image: url("../images/profile.jpg"); }
 
@@ -180,5 +183,11 @@ h3.section-header {
     opacity: 0.5;
     -webkit-transition: 0.3s;
     transition: 0.3s; }
+
+.bookingDetails h2 {
+  font-size: 25px; }
+.bookingDetails .buttonTransparent {
+  padding-left: 10px;
+  padding-right: 10px; }
 
 /*# sourceMappingURL=custom.css.map */

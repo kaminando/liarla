@@ -62,6 +62,9 @@ footer {
 .about-page {
   background-image: url('../images/office-365.jpg');
 }
+.search-page {
+  background-image: url('../images/search.jpg');
+}
 .profile-page {
   background-image: url('../images/profile.jpg');
 }
@@ -228,5 +231,15 @@ h3.section-header {
         }
       }
     }
+  }
+}
+
+.bookingDetails {
+  h2 {
+    font-size: 25px;
+  }
+  .buttonTransparent {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
