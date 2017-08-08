@@ -45,6 +45,9 @@ footer .copyRight {
 .about-page {
   background-image: url("../images/office-365.jpg"); }
 
+.profile-page {
+  background-image: url("../images/profile.jpg"); }
+
 .about-img {
   width: 100%; }
   @media screen and (max-width: 768px) {
