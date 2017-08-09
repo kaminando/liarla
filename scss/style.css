@@ -6369,6 +6369,9 @@ footer .copyRight {
     .only-xs {
       display: block; } }
 
+.hotel-detail-page {
+  background-image: url("../images/hotels/detail/hotel-detail.jpg"); }
+
 .about-page {
   background-image: url("../images/office-365.jpg"); }
 
@@ -6516,5 +6519,26 @@ h3.section-header {
 .bookingDetails .buttonTransparent, .bookingDetails .paginationCenter .pagination li:first-child a, .paginationCenter .pagination li:first-child .bookingDetails a, .bookingDetails .paginationCenter .pagination li:last-child a, .paginationCenter .pagination li:last-child .bookingDetails a, .bookingDetails .isotopeFilters ul.filter > li a, .isotopeFilters ul.filter > li .bookingDetails a {
   padding-left: 10px;
   padding-right: 10px; }
+
+.dark-place-holder .form-control::-webkit-input-placeholder {
+  color: #969696 !important; }
+.dark-place-holder .form-control::-moz-placeholder {
+  color: #969696 !important; }
+.dark-place-holder .form-control:-ms-input-placeholder {
+  color: #969696 !important; }
+.dark-place-holder .form-control:-moz-placeholder {
+  color: #969696 !important; }
+.dark-place-holder .filterDate .form-control::-webkit-input-placeholder {
+  color: #969696 !important; }
+.dark-place-holder .filterDate .form-control::-moz-placeholder {
+  color: #969696 !important; }
+.dark-place-holder .filterDate .form-control:-ms-input-placeholder {
+  color: #969696 !important; }
+.dark-place-holder .filterDate .form-control:-moz-placeholder {
+  color: #969696 !important; }
+
+.presupuesto-bigger {
+  font-size: 22px !important;
+  font-weight: 600 !important; }
 
 /*# sourceMappingURL=style.css.map */

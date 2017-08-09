@@ -246,3 +246,35 @@ h3.section-header {
     padding-right: 10px;
   }
 }
+
+.dark-place-holder {
+  .form-control::-webkit-input-placeholder{
+    color: #969696 !important;
+  }
+  .form-control::-moz-placeholder{
+    color: #969696 !important;
+  }
+  .form-control:-ms-input-placeholder{
+    color: #969696 !important;
+  }
+  .form-control:-moz-placeholder {
+    color: #969696 !important;
+  }
+  .filterDate .form-control::-webkit-input-placeholder{
+    color: #969696 !important;
+  }
+  .filterDate .form-control::-moz-placeholder{
+    color: #969696 !important;
+  }
+  .filterDate .form-control:-ms-input-placeholder{
+    color: #969696 !important;
+  }
+  .filterDate .form-control:-moz-placeholder {
+    color: #969696 !important;
+  }
+}
+
+.presupuesto-bigger {
+  font-size: 22px !important;
+  font-weight: 600 !important;
+}

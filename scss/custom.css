@@ -193,4 +193,25 @@ h3.section-header {
   padding-left: 10px;
   padding-right: 10px; }
 
+.dark-place-holder .form-control::-webkit-input-placeholder {
+  color: #969696 !important; }
+.dark-place-holder .form-control::-moz-placeholder {
+  color: #969696 !important; }
+.dark-place-holder .form-control:-ms-input-placeholder {
+  color: #969696 !important; }
+.dark-place-holder .form-control:-moz-placeholder {
+  color: #969696 !important; }
+.dark-place-holder .filterDate .form-control::-webkit-input-placeholder {
+  color: #969696 !important; }
+.dark-place-holder .filterDate .form-control::-moz-placeholder {
+  color: #969696 !important; }
+.dark-place-holder .filterDate .form-control:-ms-input-placeholder {
+  color: #969696 !important; }
+.dark-place-holder .filterDate .form-control:-moz-placeholder {
+  color: #969696 !important; }
+
+.presupuesto-bigger {
+  font-size: 22px !important;
+  font-weight: 600 !important; }
+
 /*# sourceMappingURL=custom.css.map */
