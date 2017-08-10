@@ -278,3 +278,28 @@ h3.section-header {
   font-size: 22px !important;
   font-weight: 600 !important;
 }
+
+.dropdown-toggle {
+  margin-bottom: 29px !important;
+}
+
+.profile-thumb-nav {
+  .dropdown-toggle {
+    position: relative;
+    top: -3px;
+    &::after {
+      background-color: transparent !important;
+    }
+    border-bottom: none !important;
+    img {
+      width: 33px;
+      height: 33px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+    }
+    &:after {
+      background-color: none !important;
+    }
+  }
+}

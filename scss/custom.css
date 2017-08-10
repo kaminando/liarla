@@ -214,4 +214,22 @@ h3.section-header {
   font-size: 22px !important;
   font-weight: 600 !important; }
 
+.dropdown-toggle {
+  margin-bottom: 29px !important; }
+
+.profile-thumb-nav .dropdown-toggle {
+  position: relative;
+  top: -3px;
+  border-bottom: none !important; }
+  .profile-thumb-nav .dropdown-toggle::after {
+    background-color: transparent !important; }
+  .profile-thumb-nav .dropdown-toggle img {
+    width: 33px;
+    height: 33px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; }
+  .profile-thumb-nav .dropdown-toggle:after {
+    background-color: none !important; }
+
 /*# sourceMappingURL=custom.css.map */
